@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_6wlLcMgZEeSyMNYR5xypkQ" elementId="com.libraryfront.rcp.application" bindingContexts="_6wlLecgZEeSyMNYR5xypkQ">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_6wlLccgZEeSyMNYR5xypkQ" elementId="com.libraryfront.rcp.window.main" label="CFTLib" width="1000" height="800">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_6wlLksgZEeSyMNYR5xypkQ" elementId="com.libraryfront.rcp.partsashcontainer.sample">
+      <children xsi:type="basic:PartStack" xmi:id="_6wlLk8gZEeSyMNYR5xypkQ" elementId="com.libraryfront.rcp.partstack.sample">
+        <children xsi:type="basic:Part" xmi:id="_6wlLlMgZEeSyMNYR5xypkQ" elementId="com.libraryfront.rcp.part.book-borrows" contributionURI="bundleclass://com.libraryfront.rcp/com.libraryfront.rcp.parts.BookBorrowsPart" label="Book Borrows" iconURI="platform:/plugin/com.libraryfront.rcp/icons/home.png"/>
+        <children xsi:type="basic:Part" xmi:id="_YUqQ4PRcEe-wgMtlvB4KyQ" elementId="com.libraryfront.rcp.part.books" contributionURI="bundleclass://com.libraryfront.rcp/com.libraryfront.rcp.parts.BooksPart" label="Books" iconURI="platform:/plugin/com.libraryfront.rcp/icons/home.png"/>
+        <children xsi:type="basic:Part" xmi:id="_xEcH4PRdEe-wgMtlvB4KyQ" elementId="com.libraryfront.rcp.part.persons" contributionURI="bundleclass://com.libraryfront.rcp/com.libraryfront.rcp.parts.PersonsPart" label="Persons" iconURI="platform:/plugin/com.libraryfront.rcp/icons/home.png"/>
+      </children>
+    </children>
+  </children>
+  <rootContext xmi:id="_6wlLecgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_6wlLesgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_6wlLe8gZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <addons xmi:id="_6wlLcsgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_6wlLc8gZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_6wlLdMgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_6wlLdcgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_6wlLdsgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_6wlLd8gZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_6wlLeMgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
