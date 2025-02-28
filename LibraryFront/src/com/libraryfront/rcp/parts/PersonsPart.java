@@ -54,7 +54,7 @@ public class PersonsPart {
 		table.setLayoutData(tableGridData);
 
 		// Создаём колонки
-		String[] columns = { "Name", "Sex", "Age" };
+		String[] columns = { "Имя", "Пол", "Возраст" };
 		for (String column : columns) {
 			TableColumn tableColumn = new TableColumn(table, SWT.NONE);
 			tableColumn.setText(column);
